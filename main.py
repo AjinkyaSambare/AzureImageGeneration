@@ -7,7 +7,7 @@ api_key = st.secrets["azure_openai"]["api_key"]
 endpoint = st.secrets["azure_openai"]["endpoint"]
 
 # Streamlit app title
-st.title("DALL-E 3 Image Generation")
+st.title("DALL-E-3 Image Generation")
 
 # Input for the image prompt
 prompt = st.text_area("Enter your image prompt:", placeholder="e.g., A futuristic city skyline at sunset with flying cars")
